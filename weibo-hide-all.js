@@ -117,7 +117,7 @@ hidden.prototype.start = function () {
 `);
     console.log("开始执行");
 
-    this.page = 90;
+    this.page = 0;
     this.hideNextPage();
 };
 
