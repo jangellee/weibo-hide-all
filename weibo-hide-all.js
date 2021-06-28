@@ -5,7 +5,7 @@ function hidden() {
 hidden.prototype.reset = function () {
     this.running = false;
     this.mids = [];
-    this.midIndex = 90;
+    this.midIndex = 0;
     if (this.timer) {
         clearInterval(this.timer);
     }
@@ -117,7 +117,7 @@ hidden.prototype.start = function () {
 `);
     console.log("开始执行");
 
-    this.page = 0;
+    this.page = 90;
     this.hideNextPage();
 };
 
