@@ -1,12 +1,11 @@
 function hidden() {
     this.reset();
-    this.page = 90;
 }
 
 hidden.prototype.reset = function () {
     this.running = false;
     this.mids = [];
-    this.midIndex = 0;
+    this.midIndex = 90;
     if (this.timer) {
         clearInterval(this.timer);
     }
