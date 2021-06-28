@@ -1,5 +1,6 @@
 function hidden() {
     this.reset();
+    this.page = 90;
 }
 
 hidden.prototype.reset = function () {
